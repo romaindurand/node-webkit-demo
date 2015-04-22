@@ -1,0 +1,14 @@
+#free_memory_span {
+  font-size: 12px;
+  margin-left: 9px;
+  top: 17px;
+  position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+.mfb-component__button, .mfb-component__button--main, .mfb-component__button--child {
+	background-color: #0000ff;
+}

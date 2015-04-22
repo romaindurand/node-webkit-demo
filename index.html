@@ -3,9 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>node-webkit-demo</title>
+  <link href="node_modules/mfb/src/mfb.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type="text/css" media="all">
   <link rel="stylesheet" href="style.css" type="text/css" media="all">
 </head>
 <body>
+<ul class="mfb-component--br mfb-slidein-spring" data-mfb-toggle="hover">
+  <li class="mfb-component__wrap">
+    <!-- the main menu button -->
+    <a class="mfb-component__button--main" style="-webkit-app-region: drag">
+      <i class="mfb-component__main-icon--resting ion-flash"></i>
+      <i class="mfb-component__main-icon--active ion-close-round"></i>
+    </a>
+    <ul class="mfb-component__list">
+      <li>
+        <a href="#" class="mfb-component__button--child">
+          <i class="mfb-component__child-icon ion-gear-b"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="mfb-component__button--child">
+          <span id="free_memory_span"></span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#" class="mfb-component__button--child">
+          <i class="mfb-component__child-icon ion-android-funnel"></i>
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>
   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

@@ -1,4 +1,8 @@
 {
   "main": "index.html",
-  "name": "node-webkit-demo"
+  "name": "node-webkit-demo",
+  "dependencies": {
+    "mfb": "^0.12.0",
+    "os-utils": "0.0.14"
+  }
 }
