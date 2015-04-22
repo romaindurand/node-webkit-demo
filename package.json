@@ -1,6 +1,10 @@
 {
   "main": "index.html",
   "name": "node-webkit-demo",
+  "window": {
+    "frame": false,
+    "toolbar": false
+  },
   "dependencies": {
     "mfb": "^0.12.0",
     "os-utils": "0.0.14"
